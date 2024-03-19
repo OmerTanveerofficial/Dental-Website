@@ -1,0 +1,1186 @@
+    /* Media query for screens smaller than 600px */
+  
+  @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+      }
+    
+      .container {
+        width: 100%;
+      }
+  
+  
+      nav{
+        background: #ffffff;
+        height: 140px;
+        width: 100%;
+        border-bottom: 8px;
+    }
+    label.logo
+    {
+        color: white;
+        font-size: 10px;
+        line-height: 80px;
+        padding: 100px;
+        font-weight: bold;
+    }
+    nav ul{
+        float:right;
+        margin-right: 20px;
+        position: relative;
+        bottom: 110px;
+    }
+    nav ul li{
+       
+        display: inline-block;
+        line-height: 180px;
+        margin:0 50px;
+    }
+    nav ul li a{
+        color: rgb(40, 38, 38);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius:8px;
+        text-transform: uppercase;
+    }
+    a.active,a:hover{
+        background: #1b9bff;
+        transition: .5s;
+    
+    }
+
+
+    .bg{
+      background-color: #055a96;
+      opacity: 0.7;
+      height: 500px;
+      background-image:url('../images/about_ourstorybanner.jpg')
+      
+  }
+  .ah1{
+      position: relative;
+      top: 340px;
+      left: 100px;
+      color: white;
+      text-decoration: underline;
+      text-decoration-color: rgb(59, 192, 59);
+  
+      display: inline-block;
+      font-size: 28px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      margin-bottom: 50%;
+      
+  }
+  .ah2{
+      position: relative;
+      top: 380px;
+      right: 50px;
+      color: white;
+      display: inline-block;
+      font-size: 28px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      margin-bottom: 50%;
+      
+  }
+.wpv1{
+  position:relative;
+  top: 100px;
+  left: 40px;
+}
+
+
+.wpv1-1{    
+  position:relative ;
+  width: 900px;
+  height: 500px;
+}
+
+
+.wph1{
+
+position: relative;
+bottom: 400px;
+font-size: 26px;
+right: 80px;
+
+}
+.wph1-1{
+text-align: right;
+bottom: auto;
+
+top: 100px;
+}
+.wpp1{
+  position: relative;
+  text-align: right;
+  text-align: justify;
+  left: 1100px;
+  bottom: 340px;
+  font-size: 24px;
+  font-family:plex sans-serif;
+}
+.wpp1-1{
+
+width: 600px;
+
+
+
+
+}
+
+
+
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  
+  left: 1300px;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px; 
+  margin-bottom: 10px;
+  font-size: 24px;
+  bottom: 300px;
+  
+}
+
+.custom-list li::before {
+  content: '\2713';
+  color: #4CAF50; 
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+
+}
+.wpimg1{
+  position: relative;
+
+  left: 900px;
+}
+
+
+
+
+.form-container {
+position: relative;
+max-width: 800px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+bottom: 1000px;
+left: 50px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+
+}
+
+label {
+margin-bottom: 5px;
+}
+
+input,
+textarea {
+padding: 10px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4CAF50; /* Green color for the submit button */
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+border-radius: 8px;
+}
+
+button:hover {
+background-color: #45a049; /* Darker green color on hover */
+}
+
+
+
+.heading3{
+  position: relative;
+  text-align: center;
+ left: 180px;
+}
+
+.any-div{
+  
+  width: 70%;
+  top: 60%;
+  right: 60%;
+  left: 90%;
+  padding: 100px;
+  height: fit-content;
+  text-align: center;
+  font-size: x-large;
+  font-family: IBM Plex Sans;
+  color: #777;
+}
+
+.record{
+
+  position: relative;
+  right: 30%;
+  left: 35%;
+  top: 30%;
+  bottom: 130px;
+  width: 100%;
+  height: 600px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }  
+
+.count1{
+  position: relative;
+  text-align: left;
+  bottom: 750px;
+  width: 10%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  color: #4ec668;
+  }
+  
+  .count2{
+      position: relative;
+      text-align: left;
+      bottom: 750px;
+      width: 10%;
+      bottom: 2150px;
+      left: 450px;
+      height: 10px;
+      font-size: x-large;
+      color: #777;
+      padding: 15%;
+      color: #4ec668;
+      }
+      .count3{
+          position: relative;
+          text-align: left;
+          bottom: 750px;
+          width: 10%;
+          bottom: 3380px;
+          left: 750px;
+          height: 10px;
+          font-size: x-large;
+          color: #777;
+          padding: 15%;
+          color: #4ec668;
+      }
+      .count4{
+          position: relative;
+          text-align: left;
+          bottom: 750px;
+          width: 10%;
+          bottom: 4610px;
+          left: 1126px;
+          height: 10px;
+          font-size: x-large;
+          color: #777;
+          padding: 15%;
+          color: #4ec668;
+      }
+  
+  
+          
+  .dpractice{
+  position: relative;
+  text-align: left;
+  bottom: 1380px;
+  right: 2%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  .platform{
+      position: relative;
+  text-align: left;
+  bottom: 2615px;
+  left: 23%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  
+  .contract{
+  position: relative;
+  text-align: left;
+  bottom: 3850px;
+  left:37%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  .retention{
+  position: relative;
+  text-align: left;
+  bottom: 5082px;
+  left:60%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  }
+  
+  /* Media query for screens between 601px and 1024px */
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+      }
+    
+      .container {
+        width: 100%;
+      }
+  
+  
+      nav{
+        background: #ffffff;
+        height: 140px;
+        width: 100%;
+        border-bottom: 8px;
+    }
+    label.logo
+    {
+        color: white;
+        font-size: 10px;
+        line-height: 80px;
+        padding: 100px;
+        font-weight: bold;
+    }
+    nav ul{
+        float:right;
+        margin-right: 20px;
+        position: relative;
+        bottom: 110px;
+    }
+    nav ul li{
+       
+        display: inline-block;
+        line-height: 180px;
+        margin:0 50px;
+    }
+    nav ul li a{
+        color: rgb(40, 38, 38);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius:8px;
+        text-transform: uppercase;
+    }
+    a.active,a:hover{
+        background: #1b9bff;
+        transition: .5s;
+    
+    }
+
+
+    .bg{
+      background-color: #055a96;
+      opacity: 0.7;
+      height: 500px;
+      background-image:url('../images/about_ourstorybanner.jpg')
+      
+  }
+  .ah1{
+      position: relative;
+      top: 340px;
+      left: 100px;
+      color: white;
+      text-decoration: underline;
+      text-decoration-color: rgb(59, 192, 59);
+  
+      display: inline-block;
+      font-size: 28px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      margin-bottom: 50%;
+      
+  }
+  .ah2{
+      position: relative;
+      top: 380px;
+      right: 50px;
+      color: white;
+      display: inline-block;
+      font-size: 28px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      margin-bottom: 50%;
+      
+  }
+.wpv1{
+  position:relative;
+  top: 100px;
+  left: 40px;
+}
+
+
+.wpv1-1{    
+  position:relative ;
+  width: 900px;
+  height: 500px;
+}
+
+
+.wph1{
+
+position: relative;
+bottom: 400px;
+font-size: 26px;
+right: 80px;
+
+}
+.wph1-1{
+text-align: right;
+bottom: auto;
+
+top: 100px;
+}
+.wpp1{
+  position: relative;
+  text-align: right;
+  text-align: justify;
+  left: 1100px;
+  bottom: 340px;
+  font-size: 24px;
+  font-family:plex sans-serif;
+}
+.wpp1-1{
+
+width: 600px;
+
+
+
+
+}
+
+
+
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  
+  left: 1300px;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px; 
+  margin-bottom: 10px;
+  font-size: 24px;
+  bottom: 300px;
+  
+}
+
+.custom-list li::before {
+  content: '\2713';
+  color: #4CAF50; 
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+
+}
+.wpimg1{
+  position: relative;
+
+  left: 900px;
+}
+
+
+
+
+.form-container {
+position: relative;
+max-width: 800px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+bottom: 1000px;
+left: 50px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+
+}
+
+label {
+margin-bottom: 5px;
+}
+
+input,
+textarea {
+padding: 10px;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4CAF50; /* Green color for the submit button */
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+border-radius: 8px;
+}
+
+button:hover {
+background-color: #45a049; /* Darker green color on hover */
+}
+
+
+
+.heading3{
+  position: relative;
+  text-align: center;
+ left: 180px;
+}
+
+.any-div{
+  
+  width: 70%;
+  top: 60%;
+  right: 60%;
+  left: 90%;
+  padding: 100px;
+  height: fit-content;
+  text-align: center;
+  font-size: x-large;
+  font-family: IBM Plex Sans;
+  color: #777;
+}
+
+.record{
+
+  position: relative;
+  right: 30%;
+  left: 35%;
+  top: 30%;
+  bottom: 130px;
+  width: 100%;
+  height: 600px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }  
+
+.count1{
+  position: relative;
+  text-align: left;
+  bottom: 750px;
+  width: 10%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  color: #4ec668;
+  }
+  
+  .count2{
+      position: relative;
+      text-align: left;
+      bottom: 750px;
+      width: 10%;
+      bottom: 2150px;
+      left: 450px;
+      height: 10px;
+      font-size: x-large;
+      color: #777;
+      padding: 15%;
+      color: #4ec668;
+      }
+      .count3{
+          position: relative;
+          text-align: left;
+          bottom: 750px;
+          width: 10%;
+          bottom: 3380px;
+          left: 750px;
+          height: 10px;
+          font-size: x-large;
+          color: #777;
+          padding: 15%;
+          color: #4ec668;
+      }
+      .count4{
+          position: relative;
+          text-align: left;
+          bottom: 750px;
+          width: 10%;
+          bottom: 4610px;
+          left: 1126px;
+          height: 10px;
+          font-size: x-large;
+          color: #777;
+          padding: 15%;
+          color: #4ec668;
+      }
+  
+  
+          
+  .dpractice{
+  position: relative;
+  text-align: left;
+  bottom: 1380px;
+  right: 2%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  .platform{
+      position: relative;
+  text-align: left;
+  bottom: 2615px;
+  left: 23%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  
+  .contract{
+  position: relative;
+  text-align: left;
+  bottom: 3850px;
+  left:37%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  .retention{
+  position: relative;
+  text-align: left;
+  bottom: 5082px;
+  left:60%;
+  width: 50%;
+  height: 700px;
+  font-size: x-large;
+  color: #777;
+  padding: 15%;
+  }
+  }
+  
+  /* Media query for screens larger than 1024px */
+  
+  @media only screen and (min-width: 1025px) {
+    body {
+        font-size: 14px;
+      }
+    
+      .container {
+        width: 100%;
+      }
+  
+  
+      *{
+          padding: 0;
+          margin: 0;
+          text-decoration: none;
+          list-style: none;
+          box-sizing: border-box;
+      }
+      body{
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      nav{
+          background: #ffffff;
+          height: 140px;
+          width: 100%;
+          border-bottom: 8px;
+      }
+      label.logo
+      {
+          color: white;
+          font-size: 10px;
+          line-height: 80px;
+          padding: 100px;
+          font-weight: bold;
+      }
+      nav ul{
+          float:right;
+          margin-right: 20px;
+          position: relative;
+          bottom: 110px;
+      }
+      nav ul li{
+         
+          display: inline-block;
+          line-height: 180px;
+          margin:0 50px;
+      }
+      nav ul li a{
+          color: rgb(40, 38, 38);
+          font-size: 17px;
+          padding: 7px 13px;
+          border-radius:8px;
+          text-transform: uppercase;
+      }
+      a.active,a:hover{
+          background: #1b9bff;
+          transition: .5s;
+      
+      }
+
+
+      .bg{
+        background-color: #055a96;
+        opacity: 0.7;
+        height: 500px;
+        background-image:url('../images/about_ourstorybanner.jpg')
+        
+    }
+    .ah1{
+        position: relative;
+        top: 340px;
+        left: 100px;
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: rgb(59, 192, 59);
+    
+        display: inline-block;
+        font-size: 28px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-bottom: 50%;
+        
+    }
+    .ah2{
+        position: relative;
+        top: 380px;
+        right: 50px;
+        color: white;
+        display: inline-block;
+        font-size: 28px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-bottom: 50%;
+        
+    }
+.wpv1{
+    position:relative;
+    top: 100px;
+    left: 40px;
+}
+
+
+.wpv1-1{    
+    position:relative ;
+    width: 900px;
+    height: 500px;
+}
+
+
+.wph1{
+
+  position: relative;
+  bottom: 400px;
+  font-size: 26px;
+  right: 80px;
+
+}
+.wph1-1{
+text-align: right;
+bottom: auto;
+
+top: 100px;
+}
+.wpp1{
+    position: relative;
+    text-align: right;
+    text-align: justify;
+    left: 1100px;
+    bottom: 340px;
+    font-size: 24px;
+    font-family:plex sans-serif;
+}
+.wpp1-1{
+
+width: 600px;
+
+
+
+
+}
+
+
+
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    
+    left: 1300px;
+  }
+  
+  .custom-list li {
+    position: relative;
+    padding-left: 30px; 
+    margin-bottom: 10px;
+    font-size: 24px;
+    bottom: 300px;
+    
+  }
+  
+  .custom-list li::before {
+    content: '\2713';
+    color: #4CAF50; 
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+
+  }
+.wpimg1{
+    position: relative;
+
+    left: 900px;
+}
+
+
+
+
+.form-container {
+position: relative;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  bottom: 1000px;
+  left: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50; /* Green color for the submit button */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+
+
+
+.heading3{
+    position: relative;
+    text-align: center;
+   left: 180px;
+}
+
+.any-div{
+    
+    width: 70%;
+    top: 60%;
+    right: 60%;
+    left: 90%;
+    padding: 100px;
+    height: fit-content;
+    text-align: center;
+    font-size: x-large;
+    font-family: IBM Plex Sans;
+    color: #777;
+}
+
+.record{
+
+    position: relative;
+    right: 30%;
+    left: 35%;
+    top: 30%;
+    bottom: 130px;
+    width: 100%;
+    height: 600px;
+    font-size: x-large;
+    color: #777;
+    padding: 15%;
+    }  
+
+.count1{
+    position: relative;
+    text-align: left;
+    bottom: 750px;
+    width: 10%;
+    height: 700px;
+    font-size: x-large;
+    color: #777;
+    padding: 15%;
+    color: #4ec668;
+    }
+    
+    .count2{
+        position: relative;
+        text-align: left;
+        bottom: 750px;
+        width: 10%;
+        bottom: 2150px;
+        left: 450px;
+        height: 10px;
+        font-size: x-large;
+        color: #777;
+        padding: 15%;
+        color: #4ec668;
+        }
+        .count3{
+            position: relative;
+            text-align: left;
+            bottom: 750px;
+            width: 10%;
+            bottom: 3380px;
+            left: 750px;
+            height: 10px;
+            font-size: x-large;
+            color: #777;
+            padding: 15%;
+            color: #4ec668;
+        }
+        .count4{
+            position: relative;
+            text-align: left;
+            bottom: 750px;
+            width: 10%;
+            bottom: 4610px;
+            left: 1126px;
+            height: 10px;
+            font-size: x-large;
+            color: #777;
+            padding: 15%;
+            color: #4ec668;
+        }
+    
+    
+            
+    .dpractice{
+    position: relative;
+    text-align: left;
+    bottom: 1380px;
+    right: 2%;
+    width: 50%;
+    height: 700px;
+    font-size: x-large;
+    color: #777;
+    padding: 15%;
+    }
+    .platform{
+        position: relative;
+    text-align: left;
+    bottom: 2615px;
+    left: 23%;
+    width: 50%;
+    height: 700px;
+    font-size: x-large;
+    color: #777;
+    padding: 15%;
+    }
+    
+    .contract{
+    position: relative;
+    text-align: left;
+    bottom: 3850px;
+    left:37%;
+    width: 50%;
+    height: 700px;
+    font-size: x-large;
+    color: #777;
+    padding: 15%;
+    }
+    .retention{
+    position: relative;
+    text-align: left;
+    bottom: 5082px;
+    left:60%;
+    width: 50%;
+    height: 700px;
+    font-size: x-large;
+    color: #777;
+    padding: 15%;
+    }
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  body{
+      line-height: 1.5;
+      font-family: 'Poppins', sans-serif;
+  }
+  *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
+  .container{
+      max-width: 1170px;
+      margin:auto;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  ul{
+      list-style: none;
+  }
+  .footer{
+      background-color: #4ec668;
+      padding: 70px 0;
+      bottom: 3000px;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+      font-size: 18px;
+      color: #ff0000;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+  }
+  .footer-col h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 10px;
+  }
+  .footer-col ul li a{body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    /* Media query for screens smaller than 600px */
+    
+    @media only screen and (max-width: 600px) {
+      body {
+        font-size: 14px;
+      }
+    
+      .container {
+        width: 100%;
+      }
+  
+      .nav{
+          background: #4ec668;
+          height: 140px;
+          width: 100%;
+          border-bottom: 8px;
+      }
+    }
+    
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: #ffffff;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+  }
+  .footer-col .social-links a{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.2);
+      margin:0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #ffffff;
+      transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+      color: #ffffff;
+      background-color: #ffffff;
+  }
+  
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+
+
+
+
+  }
